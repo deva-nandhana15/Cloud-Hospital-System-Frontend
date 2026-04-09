@@ -94,7 +94,7 @@ const UploadLabReport = () => {
     };
     return map[status] || '⏳ Pending Review';
   };
-
+  // eslint-disable-next-line no-unused-vars
   const isNurse = user?.role === 'nurse' ||
                   user?.role === 'receptionist' ||
                   user?.role === 'admin';

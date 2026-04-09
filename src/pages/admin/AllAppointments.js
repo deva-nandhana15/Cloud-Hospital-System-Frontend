@@ -30,6 +30,7 @@ const AllAppointments = () => {
   }, [doctors, userId]);
 
   const canBook = role === 'admin' || role === 'receptionist';
+  // eslint-disable-next-line no-unused-vars
   const canCancel = role === 'admin' || role === 'receptionist';
   const canCompleteAsStaff = role === 'admin' || role === 'receptionist';
   const isDoctor = role === 'doctor';
