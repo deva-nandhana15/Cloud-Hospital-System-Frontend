@@ -47,7 +47,7 @@ const Login = () => {
             />
           </div>
           <div className="form-group">
-            <label>Password [demo124]</label>
+            <label>Password [demo1234]</label>
             <input
               type="password"
               name="password"
